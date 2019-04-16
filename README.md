@@ -10,9 +10,9 @@ mybiplot(prcomp(x), color_vector, ...)
 
 ### Arguments
 
-x a matrix of dimension n x p.
-
-prs              |   an object of class prcomp.
+x                |  a matrix of dimension n x p.
+                 |
+prs              |  an object of class prcomp.
                  |
 color_vector     |  a factor of length n, with two levels (or a character string of length n with two categories).
                  |
