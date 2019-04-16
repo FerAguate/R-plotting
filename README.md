@@ -1,6 +1,17 @@
-# PCA biplot split by a factor of two levels
-# prs = prcomp(x)
-# color_vector = rep(c('yes', 'no'), nrow(x) / 2)
+## PCA biplot split by a factor of two levels
+
+### Description
+
+returns a biplot of a prcomp object with colors for two levels. Plot the density of points, which represents the data well when the number of rows is large.
+
+### Usage
+
+mybiplot
+
+x = matrix of dimension n x p
+prs = prcomp(x)
+color_vector = vector of length n. Two categories splitting the data (can be string or )
+
 ```R
 mybiplot <- function(prs, color_vector, color_main = 'categories', colors = c('#1B9E77', '#D95F02'), scale = 1, manyfeatures = T, pcs = c(1, 2)){
   library(ggplot2)
