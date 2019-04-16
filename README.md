@@ -22,11 +22,9 @@ mybiplot(prcomp(x), color_vector, ...)
                  
   scale              number to scale the rotation matrix.
                  
-  manyfeatures       logical value indicating whether grey dots should be plotted for each variable instead of the traditional 
-                     arrows.
+  manyfeatures       logical value indicating whether grey dots should be plotted for each variable instead of the traditional arrows.
 
-  pcs                numeric vector indicating the two principal components to be plotted. By default the first and second 
-                     component will be selected.
+  pcs                numeric vector indicating the two principal components to be plotted. By default the first and second component will be selected.
 </pre>
 
 ### Details
