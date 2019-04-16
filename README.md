@@ -10,21 +10,21 @@ mybiplot(prcomp(x), color_vector, ...)
 
 ### Arguments
 
-x                |  a matrix of dimension n x p.
+	x                |  a matrix of dimension n x p.
+	                 |
+	prs              |  an object of class prcomp.
+	                 |
+	color_vector     |  a factor of length n, with two levels (or a character string of length n with two categories).
+	                 |
+	color_main       |  a title of the scale that splits the data in two.
+	                 |
+	colors           |  a character class of length 2 indicating colors for each level.
+	                 |
+	scale            |  a number to scale the rotation matrix.
+	                 |
+	manyfeatures     |  a logical value indicating whether grey dots should be plotted for each variable instead of the        		                   |  traditional arrows.
                  |
-prs              |  an object of class prcomp.
-                 |
-color_vector     |  a factor of length n, with two levels (or a character string of length n with two categories).
-                 |
-color_main       |  a title of the scale that splits the data in two.
-                 |
-colors           |  a character class of length 2 indicating colors for each level.
-                 |
-scale            |  a number to scale the rotation matrix.
-                 |
-manyfeatures     |  a logical value indicating whether grey dots should be plotted for each variable instead of the                            |  traditional arrows.
-                 |
-pcs              |  a numeric vector indicating the two principal components to be plotted. By default the first and second                    |  component will be selected.
+	pcs              |  a numeric vector indicating the two principal components to be plotted. By default the first and second   	                 |  component will be selected.
 
 
 ### Details
