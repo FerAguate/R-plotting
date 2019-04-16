@@ -1,7 +1,7 @@
 # PCA biplot split by a factor of two levels
 # prs = prcomp(x)
 # color_vector = rep(c('yes', 'no'), nrow(x) / 2)
-
+```R
 mybiplot <- function(prs, color_vector, color_main = 'categories', colors = c('#1B9E77', '#D95F02'), scale = 1, manyfeatures = T, pcs = c(1, 2)){
   library(ggplot2)
   library(ggnewscale)
@@ -45,3 +45,4 @@ mybiplot <- function(prs, color_vector, color_main = 'categories', colors = c('#
   })
   return(ggdraw(p2))
 }
+```R
