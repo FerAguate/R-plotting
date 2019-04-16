@@ -9,7 +9,7 @@ returns a biplot of a prcomp object with colors for two levels. Plot the density
 mybiplot(prcomp(x), color_vector, ...)
 
 ### Arguments
-<ul>
+<li>
   x                  matrix of dimension n x p.
   
   prs                an object of class prcomp.
@@ -25,7 +25,7 @@ mybiplot(prcomp(x), color_vector, ...)
   manyfeatures       logical value indicating whether grey dots should be plotted for each variable instead of the traditional                      arrows.
 
   pcs           	   numeric vector indicating the two principal components to be plotted. By default the first and second                          component will be selected.
-</ul>
+</li>
 
 ### Details
 
