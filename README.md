@@ -38,7 +38,7 @@ require(ggplot2)
 require(ggnewscale)
 require(cowplot)
 
-tstm <- matrix(rnorm(1000), 200, 50)
+tstm <- matrix(rnorm(1000), 200, 5)
 colnames(tstm) <- paste0('V', 1:5)
 print(mybiplot(prs = prcomp(tstm), as.factor(rep(c('no', 'yes'), 100)), manyfeatures = T, pcs = c(1, 2)))
 ```
